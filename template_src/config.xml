@@ -91,6 +91,9 @@
         <splash src="resources/android/splash/screen-mdpi-portrait.png" density="port-mdpi"/>
         <splash src="resources/android/splash/screen-xhdpi-portrait.png" density="port-xhdpi"/>
     </platform>
+    <platform name="electron">
+        <preference name="ElectronSettingsFilePath" value="resources/electron/settings.json" />
+    </platform>
     <access launch-external="yes" origin="tel:*" />
     <allow-navigation href="*" />
     <allow-navigation href="http://*/*" />
