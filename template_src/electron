@@ -16,7 +16,7 @@ cd cordova/
 cordova platform add electron
 
 echo "======================";
-echo "add android for cordova"
+echo "added electron for cordova"
 echo "======================";
 
 rm -rf www/
