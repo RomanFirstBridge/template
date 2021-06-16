@@ -5,5 +5,9 @@ dist directory is requirement cordova other options
 cordova create cordova com.apollo.currency Apollo --template https://github.com/RomanFirstBridge/template
 ```
 
-for create build for the android use android file
-for create build for the electron use electron file
+you can add to the package.json file command 
+
+```
+"build:android: ./cordova/android",
+"build:electron: ./cordova/electron"
+```
