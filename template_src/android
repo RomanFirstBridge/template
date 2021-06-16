@@ -1,0 +1,24 @@
+#!/bin/bash
+##first install
+echo "======================";
+echo "Build android app"
+echo "start"
+echo "======================";
+
+cordova platform add android
+cd ../
+yarn install
+yarn build
+
+echo "======================";
+echo "web app builded"
+echo "======================";
+
+cp -r build cordova 
+
+cd cordova/
+
+rm -rf www/
+mv build/ www/
+
+cordova build android
