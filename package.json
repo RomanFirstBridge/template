@@ -1,0 +1,12 @@
+{
+  "name": "cordova-app-first-bridge",
+  "version": "1.0.0",
+  "description": "Cordova app template for mobile and desktop app",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0"
+}
