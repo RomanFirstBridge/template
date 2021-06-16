@@ -13,7 +13,7 @@ echo "web app builded"
 echo "======================";
 
 cd cordova/
-cordova platform add android
+cordova platform add electron
 
 echo "======================";
 echo "add android for cordova"
@@ -22,4 +22,4 @@ echo "======================";
 rm -rf www/
 mv build/ www/
 
-cordova build android
+cordova build electron
