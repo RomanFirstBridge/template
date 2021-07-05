@@ -1,0 +1,12 @@
+{
+  "browserWindow": {
+      "webPreferences": {
+          "nodeIntegration": true
+      }
+  },
+  "electron": {
+    "linux": {},
+    "mac": {},
+    "windows": {}
+}
+}
